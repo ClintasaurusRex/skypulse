@@ -1,7 +1,15 @@
 .header {
   color: wheat;
-  padding: 20px;
+  padding: 50px;
   border: 2px solid wheat;
-  width: 300px;
-  box-sizing: border-box;
+  max-width: 700px;
+  width: 100%;
 }
+
+
+
+/* margin = space outside the box
+padding = space inside the box
+border = the edge of the box
+content-box = width applies to content only
+border-box = width includes content + padding + border
