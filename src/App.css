@@ -6,6 +6,7 @@
   width: 100%;
   text-align: center;
   margin: 0 auto;
+
   min-height: 200px;
   /* height: 200px; */
 }
@@ -18,5 +19,31 @@
 }
 
 .title-text {
-  margin: 0;
+  margin: 1rem 0;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* If theres room move to another line */
+}
+
+/* center
+= group everything in the middle
+
+space-between
+= no extra space at the outer edges,
+  leftover space goes between items
+
+space-around
+= space around each item
+
+space-evenly
+= equal space everywhere */
+.search-input {
+  flex-grow: 1;
 }
